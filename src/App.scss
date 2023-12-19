@@ -1,0 +1,94 @@
+.ciff-section {
+  background-color: #edece7;
+  display: flex;
+  align-items: center;
+  // height: 100vh;
+
+  .ciff-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0;
+    .left-side {
+      .logo {
+        margin-bottom: 8rem;
+      }
+      .title {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 2rem;
+      }
+      .form {
+        input {
+          border: none;
+          outline: none;
+          height: 64px;
+          width: 555px;
+          margin-bottom: 0.5rem;
+          padding-left: 2rem;
+          border: 1px solid #dbdbdb;
+          background-color: #fffffb;
+          border-radius: 10px;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: 0em;
+
+          // color: #c1c1c1;
+        
+          &::placeholder {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+  
+            color: #c1c1c1;
+          }
+        }
+        button {
+          border: none;
+          outline: none;
+          width: 344px;
+          height: 64px;
+          border-radius: 10px;
+          background-color: #000000;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 33px;
+          letter-spacing: 0em;
+          color: #ffffff;
+          margin-top: 1rem;
+          cursor: pointer;
+        }
+      }
+    }
+    .right-side {
+      position: relative;
+      width: 587px;
+      background: url("./assets/images/Frame.png");
+      background-position-y: bottom;
+      background-size: contain;
+      background-repeat: no-repeat;
+     text-align: center;
+      .person {
+        width: 498px;
+        position: relative;
+        left: 1.5rem;
+        bottom: -0.5rem;
+       
+      }
+    }
+  }
+  .side_img {
+    width: 10%;
+    img {
+      width: 100%;
+    }
+  }
+}
