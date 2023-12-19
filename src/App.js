@@ -2,7 +2,9 @@ import "./App.scss";
 import left_dot from "./assets/images/left_dot.png";
 import right_dot from "./assets/images/right_dot.png";
 import person_img from "./assets/images/person_img.svg";
-import logo from "./assets/images/logo.svg";
+import logo from "./assets/images/FlixStock 1.svg";
+import line from "./assets/images/Line 1 (1).svg";
+import ciff from "./assets/images/CIFF-x-revolver 1.svg";
 import { useState } from "react";
 import { Button, Input, InputNumber, Select } from "antd";
 import codes from "country-calling-code";
@@ -153,8 +155,13 @@ function App() {
       </div>
       <div className="ciff-container">
         <div className="left-side">
-          <div className="logo">
+          {/* <div className="logo">
             <img src={logo} alt="logo" />
+          </div> */}
+           <div className="logo">
+            <img src={logo} alt="logo" />
+            <img src={line} alt="line" />
+            <img src={ciff} alt="modefabriek" />
           </div>
           <div className="title">
             Hi👋, I’m Madhur. <br />
