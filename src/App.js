@@ -1,7 +1,7 @@
 import "./App.scss";
 import left_dot from "./assets/images/left_dot.png";
 import right_dot from "./assets/images/right_dot.png";
-import person_img from "./assets/images/person_img.svg";
+import person_img from "./assets/images/person_img.png";
 import logo from "./assets/images/FlixStock 1.svg";
 import line from "./assets/images/Line 1 (1).svg";
 import ciff from "./assets/images/CIFF-x-revolver 1.svg";
@@ -9,7 +9,8 @@ import { useState } from "react";
 import { Button, Input, InputNumber, Select } from "antd";
 import codes from "country-calling-code";
 import CountryFlagSvg from "country-list-with-dial-code-and-flag/dist/flag-svg";
-
+import group_person_img from "./assets/images/group-person-img.png";
+import ciff_logo from "./assets/images/ciff-logo.png";
 function App() {
   const { Option } = Select;
   const [formDetails, setFormDetails] = useState({
@@ -158,9 +159,10 @@ function App() {
             <img src={logo} alt="logo" />
           </div> */}
            <div className="logo">
-            <img src={logo} alt="logo" />
+            {/* <img src={logo} alt="logo" />
             <img src={line} alt="line" />
-            <img src={ciff} alt="modefabriek" />
+            <img src={ciff} alt="modefabriek" /> */}
+            <img src={ciff_logo} alt="logo" />
           </div>
           <div className="title">
             Hi👋, I’m Madhur. <br />
@@ -201,7 +203,10 @@ function App() {
           </div>
         </div>
         <div className="right-side">
+          {/* <div className="right-side-person-img">
           <img src={person_img} alt="img" className="person" />
+          </div> */}
+          <img src={group_person_img} alt="img" />
         </div>
       </div>
       <div className="right-side-img side_img">
